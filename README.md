@@ -68,6 +68,25 @@ Se a string contiver algum __x__, existe um ciclo for no código em Python que v
 ## Dark mode e Light mode 🔅 🌙:
 A calculadora também possuir um mode dark e light. A trocar de modo alterar todas as cores da interface. A trocar entre esse dois modos é feita com uma pequena animação. A troca de modos é feita através de JavaScript, as animações foram programadas em CSS. As imagens em baixo mostram esse dois modos.
 
+<table>
+  <tr valign="middle">
+    <th>🌙Dark Mode:</th>
+    <th>🔅Light Mode:</th>
+  </tr>
+  <tr>
+    <td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187801647-387851f0-d275-4bf3-bdd0-402c60d35dcd.png"></td>
+    <td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187801589-ad9baf2d-411e-4704-9eda-da0196ebccb4.png"></td>
+  </tr>
+  <tr>
+    <td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187801656-cf54f9b1-b878-4969-b612-eb1399129daf.png"></td>
+    <td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187801603-9e3e928e-2724-4fc1-aac4-bc294b4b1ec7.png"></td>
+  </tr>
+  <tr>
+    <td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187801669-a5b8748d-6294-4d7c-a785-b6261922865b.jpg"></td>
+    <td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187801635-2cd14209-7f53-4e64-bab1-ab35c7f0cddb.jpg"></td>
+  </tr>
+</table>
+
 ## Problemas no código ❌:
 O programa possuir algumas falhas:
 - Não é possivél fazer calculos com funções trignométricas inversas;
