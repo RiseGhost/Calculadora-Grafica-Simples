@@ -1,0 +1,164 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #012b3e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 425px;
+    max-height: 380px;
+    overflow: hidden;
+}
+
+.bar{
+    width: 100%;
+    height: 25px;
+    background: rgba(0,0,0,1);
+    display: flex;
+    justify-content: center;
+}
+
+.bar label{
+    position: absolute;
+    text-align: center;
+    color: #fef5c8;
+}
+
+.bar #drag{
+    width: 88%;
+    -webkit-app-region: drag; /*Poder fazer com que a janela se mova pela tela*/
+}
+
+.bar .traffic_ligths{
+    width: 14%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bar .traffic_ligths button{
+    padding: 5px;
+    border: 0px;
+    border-radius: 100%;
+}
+
+.bar .traffic_ligths #closebtn{
+    background-color: red;
+}
+
+.bar .traffic_ligths #minimize{
+    background-color: orange;
+}
+
+input{
+    width: 360px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #00988d;
+    border: 0px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    color: #fef5c8;
+}
+
+.step{
+    display: none;
+    width: 350px;
+    height: 350px;
+    background-color: #02496a;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.step div{
+    width: 100%;
+    color: #fef5c8;
+    text-align: center;
+    font-size: 20px;
+}
+
+span{
+    color: #fef5c8;
+    font-size: 24px;
+    margin: 15px;
+}
+
+canvas{
+    background-color: #2c6b74;
+    border: 0px;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#Theme{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    border: 0px;
+    border-radius: 100%;
+    background-color: #00988d;
+    color: #fef5c8;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+@keyframes lightmode {
+    0% {background-color: #012b3e;}
+    100% {background-color: #95b6ac;}  
+}
+
+@keyframes ligthmode_input{
+    0% {
+        background-color: #00988d;
+        color: #fef5c8;
+    }
+    100% {
+        background-color: #ebf2f2;
+        color: #787878;
+    }
+}
+
+@keyframes ligthmode_tittlebar{
+    0% {background-color: rgba(0,0,0,1);}
+    100% {background-color: rgba(130,130,130,1);}
+}
+
+@keyframes lightmode_canvas{
+    0% {background-color: #2c6b74;}
+    100% {background-color: #ade0db;}
+}
+
+@keyframes darkmode {
+    0% {background-color: #95b6ac;}
+    100% {background-color: #012b3e;}
+}
+
+@keyframes darkmode_input{
+    0% {
+        background-color: #ebf2f2;
+        color: #787878;
+    }
+    100% {
+        background-color: #00988d;
+        color: #fef5c8;
+    }
+}
+
+@keyframes darkmode_tittlebar{
+    0% {background-color: rgba(130,130,130,1);}
+    100% {background-color: rgba(0,0,0,1);}
+}
+
+@keyframes darkmode_canvas{
+    0% {background-color: #ade0db;}
+    100% {background-color: #2c6b74;}
+}
