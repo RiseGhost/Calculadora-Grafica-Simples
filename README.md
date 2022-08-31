@@ -42,6 +42,15 @@ A procura de sinais é feita primeiramente fora de funções matemáticas e () e
 Primeiro são procurados os sinais de __+, -__ depois os de __*, /, ^__ e finalmente __!__.
 __Os números preferêncialmente vão para a esquedra e as expressões para a direita caso não afetar a ordem da expressão.__ Funções matemártica são considerados números mas têm menor prioridade que número como: "5, 4.909, 2, -7.8"
 
+As imagens seguintes ilustram melhor a ideia:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/91985039/187802346-fa25b6cf-8a2a-4850-8fff-762d4160e1db.jpeg" width="60%">
+<img src="https://user-images.githubusercontent.com/91985039/187802349-0a613e83-929c-4422-b5c4-915cef2b3c28.jpeg" width="60%">
+<img src="https://user-images.githubusercontent.com/91985039/187802353-b536b31a-bc80-400e-97e0-5173e4f4adfb.jpeg" width="60%">
+<img src="https://user-images.githubusercontent.com/91985039/187802354-536e1d00-73fc-48ce-8253-378ec8a4082b.jpeg" width="60%">
+</p>
+
 Para mais informação pode ver o seguinte tutorial: https://youtu.be/mB4GZP8YmKU
 
 ## Funcionamento do programa 🧑‍💻:
