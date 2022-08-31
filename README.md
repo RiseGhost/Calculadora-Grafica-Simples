@@ -38,7 +38,7 @@ Basicamente tentei fazer uma cópia á minha maneira desse sistema. Para tal foi
 
 ### Como funciona o sistema:
 São utilizadas árvores binárias 🌳 para fazer o resolução da equação. Para tal é necessário saber quais os sinais e onde se encontram. A procura dos sinais na string é feita do fim da string para o inicio.
-A procura de sinais é feita primeiramente fora de funções matemáticas e () e só caso não exista nenhum fora das funções é que a procura é feita dentro das funções ou ().
+A procura de sinais é feita primeiramente fora de funções matemáticas e (), caso não se encontre nada é que se começa a procurar dentro das funções ou ().
 Primeiro são procurados os sinais de __+, -__ depois os de __*, /, ^__ e finalmente __!__.
 __Os números preferêncialmente vão para a esquedra e as expressões para a direita caso não afetar a ordem da expressão.__ Funções matemártica são considerados números mas têm menor prioridade que número como: "5, 4.909, 2, -7.8"
 
