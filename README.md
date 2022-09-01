@@ -71,6 +71,62 @@ Se a expressão tiver algum problema, como por exemplo um parêntices mal posto 
 
 ### Imagens que ilustam o programa a funcionar 📷:
 
+<table>
+  	<tr valign="middle">
+		<th>Normal: 🧮</th>	  
+		<th>Passo a passo: 👟</th>
+	</tr>
+	<tr>
+		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187807476-8941a2e7-c127-427c-8bf1-34727d42d202.png"></td>
+    		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187807478-67c5cab6-715b-4a58-9eee-435571f5bb3d.jpg"></td>
+	</tr>
+	<tr>
+		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187807481-f157eeb8-0dff-496d-ad2e-7632df4267c3.png"></td>
+    		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187807482-93f7e4ba-e712-453c-95cd-47e7c361df50.jpg"></td>
+	</tr>
+	<tr>
+		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187807484-2e49f20b-25e6-4035-b6f7-e189505065ae.png"></td>
+    		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187807487-90a4fa7c-2911-4fdd-89b7-a8e901878c0a.jpg"></td>
+	</tr>
+	<tr>
+		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187807489-3ef5067e-b40a-40a9-a4f7-fc29914ca8e1.png"></td>
+    		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187807490-32ca284b-f24a-4567-ab44-fb05a8542ca5.jpg"></td>
+	</tr>
+	<tr>
+		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187807491-362dd23b-d95a-4190-b86a-d9e333d019e6.png"></td>
+    		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187807493-2677c76c-a9f9-4354-b8e6-c8cc78f11af3.jpg"></td>
+	</tr>
+	<tr>
+		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187807495-d6d79c3b-e71d-4b61-98e3-662525d97943.png"></td>
+    		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187807496-2d7113c1-f166-46c7-a363-8eb17f345c1a.jpg"></td>
+	</tr>
+</table>
+
+### Gráficos:
+
+<table>
+	<tr>
+		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187805545-a6b51dd6-d86e-4e11-bea9-76190db42e9d.png"></td>
+    		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187805556-386dade5-41ca-42a5-9c43-f01eee832895.png"></td>
+	</tr>
+	<tr>
+		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187805557-ea533fa3-fe0b-465d-a5fc-55d0c82e7a70.png"></td>
+    		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187805558-f22ce032-f432-462b-9d6a-0e7fcf43e079.png"></td>
+	</tr>
+	<tr>
+		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187805560-a39e9fb8-9883-46c9-a411-18c7ebbff9d9.png"></td>
+    		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187805562-00d4d023-2c7f-4beb-a3d8-6e80b9601149.png"></td>
+	</tr>
+	<tr>
+		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187805563-e32b3d0f-fc4f-4815-952a-0294b4e5f877.png"></td>
+    		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187805566-17f41739-6d44-4a2e-a1ec-77578ceb3ea9.png"></td>
+	</tr>
+	<tr>
+		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187805567-e6f884c4-2db6-452e-a825-375defc1bfae.png"></td>
+    		<td valign="middle"><img src="https://user-images.githubusercontent.com/91985039/187805568-303e1156-3dbd-469d-b811-96e014cb999a.png"></td>
+	</tr>
+</table>
+
 ## Como são desenhados os gráficos 📈:
 Se a string contiver algum __x__, existe um ciclo for no código em Python que vai subestituindo o x por valores começando por -10.00 até 10.00 indo 0.01 em 0.01. Efetua o calculo com o valor de x alterado e guarda esse valor numa lista, no fim imprime a lista e o JavaScipt desanha o gráfico, utilizando essa lista, num canvas.
 
