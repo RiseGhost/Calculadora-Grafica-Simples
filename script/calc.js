@@ -74,7 +74,7 @@ function math_engine_call(){
         args : [expression.split(" ").join("")]
     }
 
-    python.PythonShell.run("python/calc.py", options, function(err, message){
+    python.PythonShell.run(path.join(__dirname, '/python/calc.py'), options,function(err, message){
         var string = message[0]
         string = string.replace("[", "")
         string = string.replace("]", "")
